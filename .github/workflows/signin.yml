@@ -2,7 +2,7 @@ name: GameMale Auto Sign-in
 
 on:
   schedule:
-    - cron: '44 15 * * *'  # 每天 UTC 16:00 ，即北京时间 00:00 运行
+    - cron: '24 5 * * *'  # 每天 UTC 16:00 ，即北京时间 00:00 运行
   workflow_dispatch:
 
 jobs:
